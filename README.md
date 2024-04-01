@@ -40,3 +40,17 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+
+4. Update `src/main.jsx` with BrowserRouter template
+```
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter } from 'react-router-dom';
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+)
+
+```
