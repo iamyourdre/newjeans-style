@@ -2,7 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 import { logo } from '../assets';
-import { FaRegUser, FaSpotify } from "react-icons/fa6";
+import { FaSpotify } from "react-icons/fa6";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { HiX } from "react-icons/hi";
 

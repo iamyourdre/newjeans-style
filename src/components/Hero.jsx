@@ -4,7 +4,7 @@ import { FaClover } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className='px-[2rem] md:px-[8rem] font-abril my-12'>
+    <div className='px-[2rem] md:px-[8rem] font-abril my-12 '>
       <div className="flex flex-wrap">
         <div className="w-full md:w-7/12 lg:pr-16 text-center md:text-left">
           <p className='text-7xl md:text-8xl font-abril '>Welcome <span className='text-2xl md:text-4xl'>to</span></p>
