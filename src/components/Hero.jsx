@@ -4,9 +4,9 @@ import { FaClover } from "react-icons/fa6";
 
 const Hero = () => {
   return (
-    <div className='px-[2rem] md:px-[8rem] font-abril my-12 '>
+    <div className='px-[2rem] md:px-[4rem] lg:px-[8rem] font-abril my-12 '>
       <div className="flex flex-wrap">
-        <div className="w-full md:w-7/12 lg:pr-16 text-center md:text-left">
+        <div className="w-full md:w-8/12 lg:w-7/12 lg:pr-16 text-center md:text-left">
           <p className='text-7xl md:text-8xl font-abril '>Welcome <span className='text-2xl md:text-4xl'>to</span></p>
           <div className="flex justify-center md:justify-normal">
             <img src={nj2} alt="nj2" className='h-[3.2rem] md:h-[4.6rem] flex-none relative top-3 md:top-2.5'/>
@@ -20,9 +20,9 @@ const Hero = () => {
               <p className='text-7xl md:text-8xl inline relative bottom-1'>Fansite.</p>
             </div>
           </div>
-          <p className='font-playfair py-9 md:w-full'>Stay in the middle.. Like you a little.. Don't want no riddle.. 말해줘 say it back, oh, say it ditto.. 아침은 너무 멀어 so say it ditto.. I don't want to walk in this 미로.. 다 아는 건 아니어도.. 바라던 대로 말해줘..</p>
+          <p className='font-playfair py-9 md:w-10/12 lg:w-full'>Stay in the middle.. Like you a little.. Don't want no riddle.. 말해줘 say it back, oh, say it ditto.. 아침은 너무 멀어 so say it ditto.. I don't want to walk in this 미로.. 다 아는 건 아니어도.. 바라던 대로 말해줘..</p>
         </div>
-        <div className="w-full md:w-5/12">
+        <div className="w-full md:w-4/12 lg:w-5/12">
           <div className="grid grid-cols-3 gap-1 w-full">
             <div class="bg-[url('public/img/thmb-minji.jpeg')] bg-cover h-[14rem] rounded-full rounded-br-none">
               <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full rounded-full rounded-br-none flex">
