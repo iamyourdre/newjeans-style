@@ -3,7 +3,7 @@ import { FaApple, FaDeezer, FaSoundcloud, FaSpotify, FaYoutube } from "react-ico
 
 const Discography = () => {
   return (
-    <div className='pattern-rhombus px-[2rem] md:px-[8rem] font-abril py-12'>
+    <div className='pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[8rem] font-abril py-12'>
       <div className="w-full lg:pr-16 md:text-left bg-gradient-to-b from-blue-500 to-blue-400 backdrop-blur-xl drop-shadow-md p-8 md:p-10 rounded-3xl md:flex">
         <div className="w-full md:w-5/12 text-center md:pe-10 pt-4 pb-10 md:py-5">
           <p className='text-5xl font-abril mb-6'>Discography</p>
