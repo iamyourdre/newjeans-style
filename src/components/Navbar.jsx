@@ -39,7 +39,7 @@ const Navbar = () => {
         <nav className="w-full flex justify-between items-center navbar p-0 h-[80px] font-playfair">
           
           <NavLink to={'/'} className="h-full">
-            <img src={logo} className="h-14 relative top-4" />
+            <img src={logo} className="h-12 md:h-14 relative top-5 md:top-4" />
           </NavLink>
 
           <ul className="list-none md:flex hidden justify-end items-center w-full h-full">
