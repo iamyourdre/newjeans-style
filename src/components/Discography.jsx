@@ -6,13 +6,13 @@ const Discography = () => {
     <div className='pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[8rem] font-abril py-12'>
       <div className="w-full lg:pr-16 md:text-left bg-gradient-to-b from-blue-500 to-blue-400 backdrop-blur-xl drop-shadow-md p-8 md:p-10 rounded-3xl md:flex">
         <div className="w-full md:w-5/12 text-center md:pe-10 pt-4 pb-10 md:py-5">
-          <p className='text-5xl font-abril mb-6'>Discography</p>
+          <p className='text-4xl md:text-5xl font-abril mb-6'>Discography</p>
           <div>
-            <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-12 h-12 text-center me-2'><FaYoutube className='inline text-2xl relative top-2'/></a>
-            <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-12 h-12 text-center me-2'><FaSpotify className='inline text-2xl relative top-2'/></a>
-            <a href="https://soundcloud.com/newjeans-music" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-12 h-12 text-center me-2'><FaSoundcloud className='inline text-2xl relative top-2'/></a>
-            <a href="https://music.apple.com/us/artist/newjeans/1635469693" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-12 h-12 text-center me-2'><FaApple className='inline text-2xl relative top-2'/></a>
-            <a href="https://www.deezer.com/en/artist/178008437" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-12 h-12 text-center'><FaDeezer className='inline text-2xl relative top-2'/></a>
+            <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 md:w-12 md:h-12 text-center me-2'><FaYoutube className='inline text-xl md:text-2xl relative top-1 md:top-2'/></a>
+            <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 md:w-12 md:h-12 text-center me-2'><FaSpotify className='inline text-xl md:text-2xl relative top-1 md:top-2'/></a>
+            <a href="https://soundcloud.com/newjeans-music" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 md:w-12 md:h-12 text-center me-2'><FaSoundcloud className='inline text-xl md:text-2xl relative top-1 md:top-2'/></a>
+            <a href="https://music.apple.com/us/artist/newjeans/1635469693" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 md:w-12 md:h-12 text-center me-2'><FaApple className='inline text-xl md:text-2xl relative top-1 md:top-2'/></a>
+            <a href="https://www.deezer.com/en/artist/178008437" className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 md:w-12 md:h-12 text-center'><FaDeezer className='inline text-xl md:text-2xl relative top-1 md:top-2'/></a>
           </div>
         </div>
         <div className="w-full md:w-7/12">
