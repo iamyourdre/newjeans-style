@@ -11,28 +11,7 @@ npm install --save react-router-dom
 npm run dev
 ```
 
-2. Update `tailwind.config.js`
-```
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    container: {
-      padding: {
-        DEFAULT: '1rem',
-        sm: '2rem',
-        lg: '4rem',
-        xl: '5rem',
-        '2xl': '6rem',
-      },
-    },
-    extend: {},
-  },
-  plugins: [],
-}
-```
+2. Check for `tailwind.config.js` update
 
 3. Update `src/index.css`
 ```
