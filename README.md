@@ -11,16 +11,13 @@ npm install --save react-router-dom
 npm run dev
 ```
 
-2. Check for `tailwind.config.js` update
+2. Check for `tailwind.config.js` difference
 
-3. Update `src/index.css`
-```
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
+3. Check for `src/index.css` difference
 
-4. Update `src/main.jsx` with BrowserRouter template
+4. Check for `src/App.css` difference
+
+5. Update `src/main.jsx` with BrowserRouter template
 ```
 import React from 'react'
 import ReactDOM from 'react-dom/client'
