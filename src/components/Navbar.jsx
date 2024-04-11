@@ -60,7 +60,7 @@ const Navbar = () => {
               </li>
             ))}
             <li className="cursor-pointer float-right">
-              <button type="button" className="py-2 px-3 pe-4 font-normal text-[15px] outline-none rounded-full ease-in duration-200 bg-neutral-200 text-blue-600 hover:text-neutral-200 hover:bg-blue-600 border-2">
+              <button type="button" className="py-2 px-3 pe-4 font-normal text-[15px] outline-none rounded-full ease-in duration-200 bg-neutral-200 text-blue-600 hover:text-neutral-200 hover:bg-transparent border-2">
                 <FaSpotify className="inline relative bottom-0.5 text-xl me-1"/> Listen Now!
               </button>
             </li>
