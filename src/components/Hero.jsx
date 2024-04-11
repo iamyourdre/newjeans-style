@@ -12,7 +12,7 @@ const Hero = () => {
             <img src={nj2} alt="nj2" className='h-[3rem] md:h-[4.6rem] flex-none relative top-2 md:top-3.5'/>
             <p className='text-7xl md:text-8xl flex-initial ms-3  md:ms-4'>Official</p>
           </div>
-          <div className='hover:rotate-[1deg] ease-in duration-200'>
+          <div className='hover:rotate-[1deg] hover:translate-y-1 ease-in duration-200'>
             <div className='bg-blue-900 text-blue-600 w-auto inline-block px-12 mt-4 rounded-full -rotate-[1deg] absolute translate-y-1'>
               <p className='text-7xl md:text-8xl inline relative bottom-1'>Fansite.</p>
             </div>
