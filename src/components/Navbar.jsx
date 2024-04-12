@@ -50,7 +50,7 @@ const Navbar = () => {
                   ({ isActive }) =>
                   isActive ? (`border-b-2 transition duration-300 ease-in-out font-normal cursor-pointer text-[16px] px-6 flex h-full bg-gradient-to-b from-blue-600 from-50% via-blue-500 via-80%  to-blue-300 to-100% ${index === navLinks.length - 1 ? 'mr-10':''}`)
                   :
-                  (`transition duration-300 ease-in-out font-normal cursor-pointer text-[16px] px-6 flex h-full
+                  (`hover:bg-gradient-to-b hover:from-blue-600 hover:from-80% hover:via-blue-500 hover:via-90%  hover:to-blue-300 hover:to-100% ease-in duration-200 font-normal cursor-pointer text-[16px] px-6 flex h-full
                   ${index === navLinks.length - 1 ? 'mr-10':''}`) }>
                   <span className="my-auto">
                     {nav.title}
