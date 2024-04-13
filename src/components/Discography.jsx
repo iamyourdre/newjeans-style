@@ -5,10 +5,14 @@ import { LuArrowUpRight } from 'react-icons/lu'
 const Discography = () => {
   return (
     <div className='pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[8rem] py-16 font-playfair'>
-        <div className="w-full md:pr-10 pb-10 text-5xl ">
-          <p className=''>Listen to</p>
-          <p className=''><span className='text-xl inline-block align-middle relative bottom-1'>our</span> hyped songs</p>
-        </div>
+    <div className="w-full md:pr-10 pb-10 text-5xl ">
+      <div className="flex">
+        <p className='me-2'>Listen to</p>
+        <div className="border-b-2 flex-1 relative bottom-3"></div>
+      </div>
+      <p className=''><span className='text-xl inline-block align-middle relative bottom-1'>our</span> hyped songs.</p>
+    </div>
+      <div className="w-full lg:pr-16 md:text-left bg-gradient-to-b from-blue-500 to-blue-400 backdrop-blur-xl drop-shadow-md p-8 md:p-10 rounded-3xl">
         <div className="md:flex">  
           <div className="w-full md:w-5/12 md:pr-10 font-bold">
             <a href="https://www.youtube.com/channel/UCMki_UkHb4qSc0qyEcOHHJw" className='rounded-full border-2 border-neutral-50 text-neutral-50 ease-in duration-200 bg-blue-500 hover:bg-blue-400 w-full flex p-1 mb-2'>
@@ -57,6 +61,7 @@ const Discography = () => {
             </div>
           </div>
         </div>
+    </div>
     </div>
   )
 }
