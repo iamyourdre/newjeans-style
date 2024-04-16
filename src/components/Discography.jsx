@@ -25,7 +25,7 @@ const Discography = () => {
             <div className="flex pb-8">
               <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 text-neutral-50 ease-in duration-200 hover:bg-blue-400 w-full flex p-1 me-2'>
                 <div className='my-auto flex-1 ms-5'>
-                  <FaSpotify className='inline text-xl md:text-2xl relative bottom-0.5 me-2'/> Spotify
+                  <FaSpotify className='inline text-xl md:text-2xl relative bottom-0.5 me-2'/> <span className='hidden sm:inline'>Spotify</span>
                 </div>
                 <span className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 text-center'><LuArrowUpRight className='inline text-xl md:text-2xl relative top-1'/></span>
               </a>
@@ -38,7 +38,7 @@ const Discography = () => {
           </div>
           <div className="w-full md:w-7/12">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2">
-              <div className="flex flex-col">
+              <div className="flex flex-col text-center">
                 <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/New_Jeans_%28EP%29.jpg" alt="New Jeans" className='rounded-2xl shadow-lg'/>
                 <p className='mt-2 font-extrabold text-lg'>New Jeans</p>
                 <p className='text-sm'>Album • 2022</p>

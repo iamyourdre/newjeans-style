@@ -11,7 +11,8 @@ const Galleries = () => {
         <div className="bg-cover w-2/4 md:w-1/4">
           <img src="public/img/phtst-njwmx.webp" alt="" />
         </div>
-        <div className="bg-[url('public/img/phtst-newjeans.webp')] bg-cover bg-bottom w-full md:w-2/4 h-64 md:h-auto">
+        <div className="bg-cover w-full md:w-2/4">
+          <img src="public/img/phtst-newjeans.jpg" alt="" />
         </div>
       </div>
     </div>
