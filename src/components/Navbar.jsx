@@ -34,15 +34,15 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="px-[2rem] md:px-[4rem] lg:px-[8rem] flex justify-center items-center z-50">
+    <div className="px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] flex justify-center items-center z-50">
       <div className="w-full">
         <nav className="w-full flex justify-between items-center navbar p-0 h-[80px] font-playfair">
           
           <NavLink to={'/'} className="h-full">
-            <img src={logo} className="h-12 md:h-14 relative top-5 md:top-4" />
+            <img src={logo} className="h-12 xl:h-14 relative top-5 xl:top-4" />
           </NavLink>
 
-          <ul className="list-none md:flex hidden justify-end items-center w-full h-full">
+          <ul className="list-none xl:flex hidden justify-end items-center w-full h-full">
             {navLinks.map((nav, index)=>(
               <li key={nav.id} className="h-full">
 
@@ -66,7 +66,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="md:hidden flex justify-end items-center cursor-pointer">
+          <div className="xl:hidden flex justify-end items-center cursor-pointer">
 
             {toggle ? (
               <HiX alt="close"
@@ -79,7 +79,7 @@ const Navbar = () => {
             )}
 
             {/* Navbar Dropdrown */}
-            <div className={`${toggle ? 'flex' : 'hidden'} px-[2rem] md:px-[8rem] p-6 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-50 bg-neutral-50 text-blue-900 shadow-lg font-semibold`}>
+            <div className={`${toggle ? 'flex' : 'hidden'} px-[2rem] p-6 absolute top-20 right-0 mx-4 my-2 rounded-xl sidebar z-50 bg-neutral-50 text-blue-900 shadow-lg font-semibold`}>
               
               <ul className="list-none flex flex-col justify-end items-start flex-1">
                 <li className="cursor-pointer text-[16px] mb-4">
