@@ -4,8 +4,8 @@ import { LuArrowUpRight } from 'react-icons/lu'
 
 const Discography = () => {
   return (
-    <div className='pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[8rem] py-16 font-playfair'>
-    <div className="w-full md:pr-10 pb-10 text-5xl ">
+    <div className='pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] py-16 font-playfair'>
+    <div className="w-full md:pr-10 pb-10 text-4xl md:text-5xl ">
       <div className="flex">
         <p className='me-2'>Listen to</p>
         <div className="border-b-2 flex-1 relative bottom-3"></div>
@@ -23,13 +23,14 @@ const Discography = () => {
             </a>
 
             <div className="flex pb-8">
-              <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 text-neutral-50 ease-in duration-200 hover:bg-blue-400 w-full flex p-1 me-2'>
+              <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 text-neutral-50 ease-in duration-200 hover:bg-blue-400 w-full p-1 me-2 hidden xl:flex'>
                 <div className='my-auto flex-1 ms-5'>
-                  <FaSpotify className='inline text-xl md:text-2xl relative bottom-0.5 me-2'/> <span className='hidden sm:inline'>Spotify</span>
+                  <FaSpotify className='inline text-xl md:text-2xl relative bottom-0.5 me-2'/>Spotify
                 </div>
                 <span className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 text-center'><LuArrowUpRight className='inline text-xl md:text-2xl relative top-1'/></span>
               </a>
-              <div className="flex neutral-50">
+              <div className="flex w-full justify-between pt-2">
+                <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center me-2 hover:bg-blue-400 ease-in duration-200'><FaSpotify className='inline text-xl md:text-2xl relative top-2'/></a>
                 <a href="https://soundcloud.com/newjeans-music" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center me-2 hover:bg-blue-400 ease-in duration-200'><FaSoundcloud className='inline text-xl md:text-2xl relative top-2'/></a>
                 <a href="https://music.apple.com/us/artist/newjeans/1635469693" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center me-2 hover:bg-blue-400 ease-in duration-200'><FaApple className='inline text-xl md:text-2xl relative top-1.5'/></a>
                 <a href="https://www.deezer.com/en/artist/178008437" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center me-2 hover:bg-blue-400 ease-in duration-200'><FaDeezer className='inline text-xl md:text-2xl relative top-2'/></a>
