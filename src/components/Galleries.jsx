@@ -15,7 +15,7 @@ const Galleries = () => {
       <div className="flex flex-col md:flex-row gap-2">
         <a href='https://en.wikipedia.org/wiki/NewJeans' className="w-full md:w-1/2 relative">
           <img src="public/img/phtst-nwjns.webp" className="rounded-2xl" />
-          <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-neutral-950 to-50% rounded-2xl transition duration-1000 hover:text-transparent">
+          <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-blue-400 text-white shadow-xl to-50% rounded-2xl transition duration-1000 hover:text-transparent">
             <div className="absolute bottom-0 left-0 p-4 md:p-6 xl:p-8">
               <p className='text-xl md:text-2xl font-medium'>This is NewJeans</p>
               <p className='text-xs md:text-sm font-thin'>It's where the story begins...</p>
@@ -28,7 +28,7 @@ const Galleries = () => {
         <div className="w-full md:w-1/2 grid grid-cols-2 gap-2">
           <a href='https://en.wikipedia.org/wiki/NewJeans' className="col-span-1 bg-cover relative">
             <img src="public/img/phtst-ditto.webp" className="rounded-2xl" />
-            <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-neutral-950 to-50% rounded-2xl transition duration-1000 hover:text-transparent">
+            <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-blue-400 text-white shadow-xl to-50% rounded-2xl transition duration-1000 hover:text-transparent">
               <div className="absolute bottom-0 left-0 p-4 lg:p-6">
                 <p className='lg:text-xl font-medium'>DITTO</p>
               </div>
@@ -39,7 +39,7 @@ const Galleries = () => {
           </a>
           <a href='https://en.wikipedia.org/wiki/NewJeans' className="col-span-1 bg-cover relative">
             <img src="public/img/phtst-njwmx.webp" className="rounded-2xl" />
-            <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-neutral-950 to-50% rounded-2xl transition duration-1000 hover:text-transparent">
+            <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-blue-400 text-white shadow-xl to-50% rounded-2xl transition duration-1000 hover:text-transparent">
               <div className="absolute bottom-0 left-0 p-4 lg:p-6">
                 <p className='lg:text-xl font-medium'>NJWMX</p>
               </div>
@@ -50,7 +50,7 @@ const Galleries = () => {
           </a>
           <a href='https://en.wikipedia.org/wiki/NewJeans' className="col-span-2 bg-cover relative">
             <img src="public/img/phtst-newjeans.jpg" className="rounded-2xl" />
-            <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-neutral-950 to-50% rounded-2xl transition duration-1000 hover:text-transparent">
+            <div className="absolute bottom-0 left-0 w-full h-full opacity-100 bg-gradient-to-t from-blue-400 text-white shadow-xl to-50% rounded-2xl transition duration-1000 hover:text-transparent">
               <div className="absolute bottom-0 left-0 p-4 lg:p-6">
                 <p className='lg:text-xl font-medium'>NewJeans</p>
               </div>
