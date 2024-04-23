@@ -23,17 +23,17 @@ const Discography = () => {
             </a>
 
             <div className="flex pb-8">
-              <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 text-neutral-50 ease-in duration-200 hover:bg-blue-400 w-full p-1 me-2 hidden xl:flex '>
+              <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 text-neutral-50 ease-in duration-200 hover:bg-blue-400 w-full p-1 me-1 hidden xl:flex '>
                 <div className='my-auto flex-1 ms-5'>
                   <FaSpotify className='inline text-xl md:text-2xl relative bottom-0.5 me-2'/>Spotify
                 </div>
                 <span className='rounded-full border bg-neutral-50 text-blue-400 inline-block align-middle w-10 h-10 text-center'><LuArrowUpRight className='inline text-xl md:text-2xl relative top-1'/></span>
               </a>
               <div className="flex w-full justify-between pt-2 xl:pt-0 xl:ps-2">
-                <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center hover:bg-blue-400 ease-in duration-200 xl:hidden'><FaSpotify className='inline text-xl md:text-2xl relative top-2'/></a>
-                <a href="https://soundcloud.com/newjeans-music" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center hover:bg-blue-400 ease-in duration-200'><FaSoundcloud className='inline text-xl md:text-2xl relative top-2'/></a>
-                <a href="https://music.apple.com/us/artist/newjeans/1635469693" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center hover:bg-blue-400 ease-in duration-200'><FaApple className='inline text-xl md:text-2xl relative top-1.5'/></a>
-                <a href="https://www.deezer.com/en/artist/178008437" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-12 h-12 md:w-12 md:h-12 text-center hover:bg-blue-400 ease-in duration-200'><FaDeezer className='inline text-xl md:text-2xl relative top-2'/></a>
+                <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-[3.25rem] h-[3.25rem] text-center hover:bg-blue-400 ease-in duration-200 xl:hidden'><FaSpotify className='inline text-xl md:text-2xl relative top-2.5'/></a>
+                <a href="https://soundcloud.com/newjeans-music" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-[3.25rem] h-[3.25rem] text-center hover:bg-blue-400 ease-in duration-200'><FaSoundcloud className='inline text-xl md:text-2xl relative top-2.5'/></a>
+                <a href="https://music.apple.com/us/artist/newjeans/1635469693" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-[3.25rem] h-[3.25rem] text-center hover:bg-blue-400 ease-in duration-200'><FaApple className='inline text-xl md:text-2xl relative top-2'/></a>
+                <a href="https://www.deezer.com/en/artist/178008437" className='rounded-full border-2 border-neutral-50 inline-block align-middle w-[3.25rem] h-[3.25rem] text-center hover:bg-blue-400 ease-in duration-200'><FaDeezer className='inline text-xl md:text-2xl relative top-2.5'/></a>
               </div>
             </div>
           </div>
