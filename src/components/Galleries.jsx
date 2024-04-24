@@ -14,7 +14,7 @@ const Galleries = () => {
       </div>
       <div className="flex flex-col md:flex-row gap-4">
         <a href='https://en.wikipedia.org/wiki/NewJeans' className="w-full md:w-1/2 relative">
-          <img src="public/img/phtst-nwjns.webp" className="rounded-2xl" />
+          <img src="public/img/phtst-nwjns.webp" className="rounded-2xl object-top object-cover w-full h-full flex" />
           <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-neutral-800 to-30% rounded-2xl transition duration-1000">
             <div className="absolute bottom-0 left-0 p-4 md:p-6 xl:p-8 drop-shadow-md">
               <p className='text-xl md:text-2xl font-medium'>This is NewJeans</p>
@@ -29,7 +29,7 @@ const Galleries = () => {
         </a>
         <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
           <a href='https://en.wikipedia.org/wiki/NewJeans' className="col-span-1 bg-cover relative">
-            <img src="public/img/phtst-ditto.webp" className="rounded-2xl" />
+            <img src="public/img/phtst-ditto.webp" className="rounded-2xl " />
             <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-neutral-800 to-30% rounded-2xl transition duration-1000">
               <div className="absolute bottom-0 left-0 p-4 lg:p-6 drop-shadow-md">
                 <p className='lg:text-xl font-medium'>DITTO</p>

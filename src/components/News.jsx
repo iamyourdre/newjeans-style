@@ -8,10 +8,9 @@ const News = () => {
 
       <div className="w-full pb-10 text-4xl md:text-5xl ">
         <div className="flex">
-          <p className='me-4'>News</p>
+          <p className='me-4'>Latest News</p>
           <div className="border-b-2 w-full flex-1 relative bottom-3"></div>
         </div>
-        <p className=''><span className='text-xl inline-block align-middle relative bottom-1'>of</span> NewJeans.</p>
       </div>
 
 
