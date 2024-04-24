@@ -19,16 +19,12 @@ const Navbar = () => {
       title: "Discography",
     },
     {
-      id: "galleries",
-      title: "Galleries",
+      id: "gallery",
+      title: "Gallery",
     },
     {
       id: "news",
-      title: "News",
-    },
-    {
-      id: "events",
-      title: "Events",
+      title: "News & Events",
     },
     
   ];
