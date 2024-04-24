@@ -1,5 +1,5 @@
 import React from 'react'
-import { nj2 } from '../assets'
+import { mem1, mem2, mem3, mem4, mem5, nj2 } from '../assets'
 import { FaClover } from "react-icons/fa6";
 
 const Hero = () => {
@@ -25,35 +25,44 @@ const Hero = () => {
         <div className="w-full md:w-4/12 lg:w-5/12">
           <div className="grid grid-cols-3 gap-1 w-full">
 
-            <div class="bg-[url('public/img/thmb-minji.jpeg')] bg-cover h-[11rem] xl:h-[14rem] rounded-full rounded-br-none">
-              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full rounded-full rounded-br-none flex">
+            <div class={`h-[11rem] xl:h-[14rem] relative`}>
+              <img src={mem1} className="rounded-full rounded-br-none object-center object-cover w-full h-full flex" />
+              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full rounded-br-none">
                 <span className="mx-auto my-auto drop-shadow-lg">Minji</span>
               </div>
             </div>
-
-            <div class="bg-[url('public/img/thmb-hanni.jpeg')] bg-cover h-[11rem] xl:h-[14rem] rounded-full bg-center">
-              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full rounded-full rounded-br-none flex">
+            
+            <div class={`h-[11rem] xl:h-[14rem] relative`}>
+              <img src={mem2} className="rounded-full object-center object-cover w-full h-full flex" />
+              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full">
                 <span className="mx-auto my-auto drop-shadow-lg">Hanni</span>
               </div>
             </div>
-
-            <div class="bg-[url('public/img/thmb-danielle.jpeg')] bg-cover h-[11rem] xl:h-[14rem] rounded-t-full rounded-br-none bg-center">
-              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full rounded-full rounded-br-none flex">
+            
+            <div class={`h-[11rem] xl:h-[14rem] relative`}>
+              <img src={mem3} className="rounded-t-full rounded-br-none object-top object-cover w-full h-full flex" />
+              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-t-full rounded-br-none">
                 <span className="mx-auto my-auto drop-shadow-lg">Danielle</span>
               </div>
             </div>
+
           </div>
           <div className="grid grid-cols-3 gap-1 mt-1">
-            <div class="bg-[url('public/img/thmb-haerin.jpeg')] bg-cover h-[11rem] xl:h-[14rem] w-full rounded-full">
-              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full rounded-full rounded-br-none flex">
+            
+            <div class={`h-[11rem] xl:h-[14rem] relative`}>
+              <img src={mem4} className="rounded-full object-center object-cover w-full h-full flex" />
+              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full">
                 <span className="mx-auto my-auto drop-shadow-lg">Haerin</span>
               </div>
             </div>
-            <div class="bg-[url('public/img/thmb-hyein.jpeg')] bg-cover h-[11rem] xl:h-[14rem] w-full rounded-full rounded-t-none">
-              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full rounded-full rounded-br-none flex">
+            
+            <div class={`h-[11rem] xl:h-[14rem] relative`}>
+              <img src={mem5} className="rounded-full rounded-t-none object-top object-cover w-full h-full flex" />
+              <div class="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full rounded-t-none">
                 <span className="mx-auto my-auto drop-shadow-lg">Hyein</span>
               </div>
             </div>
+            
             <div class="border-neutral-200 border-2 bg-cover h-[11rem] xl:h-[14rem] w-full rounded-full rounded-t-none flex">
               <span className="mx-auto my-auto relative bottom-2 animate-jump">
                 <FaClover className='text-neutral-200 text-7xl rotate-45'/>
