@@ -39,22 +39,22 @@ const Discography = () => {
           </div>
           <div className="w-full md:w-7/12">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-2">
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center rounded-3xl hover:bg-neutral-50 hover:p-2 hover:text-blue-950 ease-in duration-100">
                 <img src="https://upload.wikimedia.org/wikipedia/en/3/3d/New_Jeans_%28EP%29.jpg" alt="New Jeans" className='rounded-2xl shadow-lg'/>
                 <p className='mt-2 font-extrabold text-lg'>New Jeans</p>
                 <p className='text-sm'>Album • 2022</p>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center rounded-3xl hover:bg-neutral-50 hover:p-2 hover:text-blue-950 ease-in duration-100">
                 <img src="https://upload.wikimedia.org/wikipedia/en/1/10/NewJeans_OMG_cover.jpg" alt="OMG" className='rounded-2xl shadow-lg'/>
                 <p className='mt-2 font-extrabold text-lg'>OMG</p>
                 <p className='text-sm'>Album • 2023</p>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center rounded-3xl hover:bg-neutral-50 hover:p-2 hover:text-blue-950 ease-in duration-100">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/NewJeans_-_Get_Up.png/220px-NewJeans_-_Get_Up.png" alt="Get Up" className='rounded-2xl shadow-lg'/>
                 <p className='mt-2 font-extrabold text-lg'>Get Up</p>
                 <p className='text-sm'>Album • 2023</p>
               </div>
-              <div className="flex flex-col text-center">
+              <div className="flex flex-col text-center rounded-3xl hover:bg-neutral-50 hover:p-2 hover:text-blue-950 ease-in duration-100">
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/NewJeans_-_NJWMX.png/220px-NewJeans_-_NJWMX.png" alt="NJWMX" className='rounded-2xl shadow-lg'/>
                 <p className='mt-2 font-extrabold text-lg'>NJWMX</p>
                 <p className='text-sm'>Album • 2023</p>

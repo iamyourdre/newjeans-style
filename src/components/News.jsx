@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const News = () => {
 
   return (
-    <div className='bg-blue-600 px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] pb-16 font-playfair'>
+    <div className='bg-blue-600 px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] pt-16 font-playfair'>
 
       <div className="w-full pb-10 text-4xl md:text-5xl ">
         <div className="flex">
@@ -34,7 +34,7 @@ const News = () => {
             <p className='mt-3 opacity-70 text-sm'>Get early newsletter about daily events and NewJeans update for free.</p>
           </div>
           <form class="flex flex-row bg-blue-400 border border-transparent ease-in duration-100 p-0.5 hover:border-blue-300  hover:bg-transparent rounded-xl leading-tight">
-            <input class="flex-1 rounded-s-lg py-3 ps-4 lg:pe-4 bg-transparent outline-none focus:shadow-outline text-white placeholder:opacity-50 placeholder:text-white" id="username" type="email" placeholder="Email"/>
+            <input class="flex-1 rounded-s-lg py-3 ps-4 lg:pe-4 bg-transparent outline-none focus:shadow-outline text-white placeholder:opacity-50 placeholder:text-white" id="username" type="email" placeholder="Email" autoComplete='off'/>
             <button class="rounded-lg bg-neutral-50 font-bold py-2 px-3 lg:px-6 outline-none focus:shadow-outline text-blue-600" type="button">
               <FaArrowRightLong />
             </button>

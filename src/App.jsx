@@ -1,16 +1,19 @@
 
 import './App.css'
-import { Navbar, Hero, Discography, Galleries, News } from './components'
+import { Navbar, Hero, Discography, Galleries, News, Footer } from './components'
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+      <section id="top">
+        <Navbar/>
+      </section>
       <Hero/>
       <Discography/>
-      <Galleries/>
       <News/>
+      <Galleries/>
+      <Footer/>
     </>
   )
 }

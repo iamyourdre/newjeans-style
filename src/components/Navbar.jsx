@@ -19,12 +19,12 @@ const Navbar = () => {
       title: "Discography",
     },
     {
-      id: "gallery",
-      title: "Gallery",
+      id: "news",
+      title: "News / Events",
     },
     {
-      id: "news",
-      title: "News & Events",
+      id: "gallery",
+      title: "Gallery",
     },
     
   ];
@@ -75,7 +75,7 @@ const Navbar = () => {
             )}
 
             {/* Navbar Dropdrown */}
-            <div className={`${toggle ? 'flex' : 'hidden'} px-[2rem] p-6 absolute top-20 right-0 mx-4 my-2 rounded-xl sidebar z-50 bg-neutral-50 text-blue-900 shadow-lg font-semibold`}>
+            <div className={`${toggle ? 'flex' : 'hidden'} px-[2rem] p-6 absolute top-16 right-0 mx-4 my-2 rounded-xl sidebar z-50 bg-neutral-50 text-blue-900 shadow-lg font-semibold`}>
               
               <ul className="list-none flex flex-col justify-end items-start flex-1">
                 <li className="cursor-pointer text-[16px] mb-4">
