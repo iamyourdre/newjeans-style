@@ -7,7 +7,7 @@ const Galleries = () => {
     <div className='bg-blue-600 px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] py-16 font-playfair'>
       <div className="w-full pb-10 text-4xl md:text-5xl ">
         <div className="flex">
-          <p className='me-4'>Galleries</p>
+          <p className='me-4'>Gallery</p>
           <div className="border-b-2 w-full flex-1 relative bottom-3"></div>
         </div>
         <p className=''><span className='text-xl inline-block align-middle relative bottom-1'>of</span> NewJeans.</p>

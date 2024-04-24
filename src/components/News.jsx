@@ -25,7 +25,7 @@ const News = () => {
           <iframe className='aspect-video h-full w-full rounded-2xl' src="https://www.youtube.com/embed/wU2siJ2c5TA?si=Ci923xnznTHLO05E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
         </div>
 
-        <div className="w-full md:text-left bg-gradient-to-b from-blue-500 to-blue-400 drop-shadow-md px-4 md:px-6 rounded-3xl py-6">
+        <div className="w-full md:text-left bg-gradient-to-b from-blue-500 to-blue-400 drop-shadow-md p-6 rounded-3xl">
           <div className="text-3xl leading-tight mb-4">
             <div className="flex">
               <p className='me-3'>Subscribe</p>
@@ -34,8 +34,8 @@ const News = () => {
             <p className='mt-3 opacity-70 text-sm'>Get early newsletter about daily events and NewJeans update for free.</p>
           </div>
           <form class="flex flex-row bg-blue-400 border border-transparent ease-in duration-100 p-0.5 hover:border-blue-300  hover:bg-transparent rounded-xl leading-tight">
-            <input class="flex-1 rounded-s-lg py-3 px-4 bg-transparent outline-none focus:shadow-outline text-white placeholder:opacity-50 placeholder:text-white" id="username" type="email" placeholder="Email"/>
-            <button class="rounded-lg bg-neutral-50 font-bold py-2 px-6 outline-none focus:shadow-outline text-blue-600" type="button">
+            <input class="flex-1 rounded-s-lg py-3 ps-4 lg:pe-4 bg-transparent outline-none focus:shadow-outline text-white placeholder:opacity-50 placeholder:text-white" id="username" type="email" placeholder="Email"/>
+            <button class="rounded-lg bg-neutral-50 font-bold py-2 px-3 lg:px-6 outline-none focus:shadow-outline text-blue-600" type="button">
               <FaArrowRightLong />
             </button>
           </form>
