@@ -27,8 +27,8 @@ const Navbar = () => {
       title: "News",
     },
     {
-      id: "contact",
-      title: "Contact",
+      id: "events",
+      title: "Events",
     },
     
   ];
