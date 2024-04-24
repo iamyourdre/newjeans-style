@@ -56,9 +56,11 @@ const Navbar = () => {
               </li>
             ))}
             <li className="cursor-pointer float-right">
+              <a href="https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d">
               <button type="button" className="py-2 px-3 pe-4 font-normal text-[15px] outline-none rounded-full ease-in duration-200 bg-neutral-200 text-blue-600 hover:text-neutral-200 hover:bg-transparent border-2">
                 <FaSpotify className="inline relative bottom-0.5 text-xl me-1"/> Listen Now!
               </button>
+              </a>
             </li>
           </ul>
 
@@ -79,7 +81,7 @@ const Navbar = () => {
               
               <ul className="list-none flex flex-col justify-end items-start flex-1">
                 <li className="cursor-pointer text-[16px] mb-4">
-                  <a href='#'>
+                  <a href='https://open.spotify.com/artist/6HvZYsbFfjnjFrWF950C9d'>
                     <FaSpotify className="inline relative bottom-0.5 text-xl me-1"/> Spotify
                   </a>
                 </li>

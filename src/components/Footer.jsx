@@ -5,7 +5,7 @@ import { logo } from '../assets'
 const Footer = () => {
   return (
     <div className='pattern-rhombus pt-16 font-playfair'>
-      <div className="w-full lg:pr-16 md:text-left bg-gradient-to-b from-blue-500 to-blue-400 drop-shadow-md px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] py-8">
+      <div className="w-full lg:pr-16 md:text-left bg-gradient-to-b from-blue-500 to-blue-400 drop-shadow-md px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] py-8 pb-16">
 
         <div className="mb-8">
           <img src={logo} alt="NewJeans" className='h-10 inline'/>
