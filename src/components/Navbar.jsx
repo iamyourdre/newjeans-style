@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 import { logo } from '../assets';
@@ -8,6 +8,15 @@ import { HiX } from "react-icons/hi";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [isRendered, setIsRendered] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsRendered(true);
+    }, 1000);
+
+    return () => clearTimeout(timeout);
+  }, []);
 
   const navLinks = [
     {
@@ -30,9 +39,9 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] flex justify-center items-center z-50">
+    <div className="transition-all duration-100 px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] flex justify-center items-center z-50">
       <div className="w-full">
-        <nav className="w-full flex justify-between items-center navbar p-0 h-[80px] font-playfair">
+        <nav className={`w-full flex justify-between items-center navbar p-0 h-[80px] font-playfair ${isRendered ? 'opacity-100 bottom-0' : 'opacity-0 bottom-52'} transition-all duration-1000 relative`}>
           
           <NavLink to={'/'} className="h-full">
             <img src={logo} className="h-12 xl:h-14 relative top-5 xl:top-4" />

@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { FaApple, FaDeezer, FaSoundcloud, FaSpotify, FaYoutube } from "react-icons/fa"
 import { LuArrowUpRight } from 'react-icons/lu'
 
 const Discography = () => {
+  const [isRendered, setIsRendered] = useState(false);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIsRendered(true);
+    }, 1200);
+
+    return () => clearTimeout(timeout);
+  }, []);
   return (
-    <div className='pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] py-16 font-playfair'>
+    <div className="pattern-rhombus px-[2rem] md:px-[4rem] lg:px-[6rem] xl:px-[8rem] py-16 font-playfair">
       <div className="w-full pb-10 text-4xl md:text-5xl ">
         <div className="flex">
           <p className='me-4'>Listen to</p>

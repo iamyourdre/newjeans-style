@@ -22,7 +22,7 @@ const News = () => {
         </div>
         
         <div className="text-black h-full rounded-2xl">
-          <iframe className='aspect-video h-full w-full rounded-2xl' src="https://www.youtube.com/embed/wU2siJ2c5TA?si=Ci923xnznTHLO05E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
+          <iframe className='aspect-video h-full w-full rounded-2xl' src="https://www.youtube.com/embed/ft70sAYrFyY?si=GDzIkTMr-iCDbmE-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe>
         </div>
 
         <div className="w-full md:text-left bg-gradient-to-b from-blue-500 to-blue-400 drop-shadow-md p-6 rounded-3xl">
