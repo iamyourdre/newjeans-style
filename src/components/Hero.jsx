@@ -41,7 +41,7 @@ const Hero = () => {
             <div className={`h-[11rem] xl:h-[14rem] relative transition-opacity duration-500 delay-[500ms] ${isRendered ? 'opacity-100' : 'opacity-0'}`}>
               <img src={mem1} className="rounded-full rounded-br-none object-center object-cover w-full h-full flex" />
               <div className="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full rounded-br-none">
-                <span className="mx-auto my-auto drop-shadow-lg">Dewi</span>
+                <span className="mx-auto my-auto drop-shadow-lg">Minji</span>
               </div>
             </div>
             
@@ -49,7 +49,7 @@ const Hero = () => {
             <div className={`h-[11rem] xl:h-[14rem] relative transition-opacity duration-500 delay-[800ms] ${isRendered ? 'opacity-100' : 'opacity-0'}`}>
               <img src={mem2} className="rounded-full object-center object-cover w-full h-full flex" />
               <div className="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full">
-                <span className="mx-auto my-auto drop-shadow-lg">Yanti</span>
+                <span className="mx-auto my-auto drop-shadow-lg">Hanni</span>
               </div>
             </div>
             
@@ -57,7 +57,7 @@ const Hero = () => {
             <div className={`h-[11rem] xl:h-[14rem] relative transition-opacity duration-500 delay-[1100ms] ${isRendered ? 'opacity-100' : 'opacity-0'}`}>
               <img src={mem3} className="rounded-t-full rounded-br-none object-top object-cover w-full h-full flex" />
               <div className="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-t-full rounded-br-none">
-                <span className="mx-auto my-auto drop-shadow-lg">Ratna</span>
+                <span className="mx-auto my-auto drop-shadow-lg">Danielle</span>
               </div>
             </div>
 
@@ -68,7 +68,7 @@ const Hero = () => {
             <div className={`h-[11rem] xl:h-[14rem] relative transition-opacity duration-500 delay-[1400ms] ${isRendered ? 'opacity-100' : 'opacity-0'}`}>
               <img src={mem4} className="rounded-full object-center object-cover w-full h-full flex" />
               <div className="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full">
-                <span className="mx-auto my-auto drop-shadow-lg">Siti</span>
+                <span className="mx-auto my-auto drop-shadow-lg">Haerin</span>
               </div>
             </div>
             
@@ -76,7 +76,7 @@ const Hero = () => {
             <div className={`h-[11rem] xl:h-[14rem] relative transition-opacity duration-500 delay-[1700ms] ${isRendered ? 'opacity-100' : 'opacity-0'}`}>
               <img src={mem5} className="rounded-full rounded-t-none object-top object-cover w-full h-full flex" />
               <div className="ease-in duration-100 opacity-0 hover:backdrop-blur-sm hover:opacity-100 w-full h-full bottom-0 left-0 flex absolute rounded-full rounded-t-none">
-                <span className="mx-auto my-auto drop-shadow-lg">Sumiati</span>
+                <span className="mx-auto my-auto drop-shadow-lg">Hyein</span>
               </div>
             </div>
             
